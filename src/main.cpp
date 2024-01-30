@@ -1,11 +1,15 @@
 #include <iostream>
-int x , beta/*版本号*/ = {};
+#include <string>
+using namespace std;
+//初始化
+int x;
+string beta/*版本号*/ = "0.4.1";
 char q [100] = {'n','o'};
-
+//定义函数
 int main()
 {
-    std::cout << "beta_" << beta << std::endl << "IN:"<< q[0] << q[1] << std::endl;
+    cout << "beta_" << beta << endl << "IN:"<< q[0] << q[1] << endl;
     //esc
-    std::cin.get();
+    cin.get();
     return 0;
 }
