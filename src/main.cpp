@@ -3,7 +3,7 @@
 using namespace std;
 //初始化
 int x;
-string beta/*版本号*/ = "0.4.1";
+string beta/*版本号*/ = "0.4.2";
 char q [100] = {'n','o'};
 //定义函数
 int main()

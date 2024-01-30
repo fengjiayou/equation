@@ -1,1 +1,1 @@
-For equation calculation
+For equation calculation(beta)
