@@ -1,9 +1,11 @@
 #include <iostream>
-int x;
+int x , beta/*版本号*/ = {};
 char q [100] = {'n','o'};
 
-int main(int argc, char *argv[])
+int main()
 {
-    std::cout << "beta_0.4" << std::endl << q[0] << q[1] << std::endl;
+    std::cout << "beta_" << beta << std::endl << "IN:"<< q[0] << q[1] << std::endl;
+    //esc
     std::cin.get();
+    return 0;
 }
